@@ -1,4 +1,4 @@
-@ProyectoData.sql
-@GenKey.sql
-@TRIGGERS.sql
-@inserts.sql
+@DMLs/ProyectoData.sql
+@DMLs/GenKey.sql
+@DMLs/TRIGGERS.sql
+@DMLs/inserts.sql
