@@ -239,7 +239,7 @@ CREATE TABLE Afiliados (
     Nombre VARCHAR2(255) NOT NULL,
     Descripcion VARCHAR2(255),
     Localizacion VARCHAR2(255),
-    Telefono NUMBER(15) NOT NULL,
+    Telefono VARCHAR(20) NOT NULL,
     Email VARCHAR2(40) NOT NULL
 );
 
