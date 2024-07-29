@@ -1,0 +1,11 @@
+"ID_PROYECTO","ID_CLIENTE","NOMBRE","DESCRIPCION","FECHA_INICIO","FECHA_FIN"
+"PRO-00001","CLI-00001","Proyecto A","Desarrollo de software",01/01/24,01/06/24
+"PRO-00002","CLI-00002","Proyecto B","Implementación de infraestructura",01/02/24,01/07/24
+"PRO-00003","CLI-00003","Proyecto C","Análisis de datos",01/03/24,01/08/24
+"PRO-00004","CLI-00004","Proyecto D","Desarrollo de aplicación móvil",01/04/24,01/09/24
+"PRO-00005","CLI-00005","Proyecto E","Mejora de sistema existente",01/05/24,01/10/24
+"PRO-00006","CLI-00006","Proyecto F","Desarrollo de sitio web",01/06/24,01/11/24
+"PRO-00007","CLI-00007","Proyecto G","Migración a la nube",01/07/24,01/12/24
+"PRO-00008","CLI-00008","Proyecto H","Consultoría en TI",01/08/24,01/01/25
+"PRO-00009","CLI-00009","Proyecto I","Desarrollo de sistema integrado",01/09/24,01/02/25
+"PRO-00010","CLI-00010","Proyecto J","Investigación y desarrollo",01/10/24,01/03/25
