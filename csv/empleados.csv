@@ -1,0 +1,201 @@
+"ID_EMPLEADO","DNI","NOMBRE","APELLIDO1","APELLIDO2","FOTO","FECHA_NACIMIENTO","SEXO","ID_MENTOR","PROFESION","ID_EMPLEADO_1","TELEFONO","EMAIL","DIRECCION","CODIGO_POSTAL","ID_EMPLEADO_2","ID_DEPARTAMENTO","ID_OFICINA","UBICACION_OFICINA","ID_EMPLEADO_3","ROL","ANIOSEXPERIENCIA","TIPOEMPLEADO","CARGO"
+"EMP-00099","86968263L","Tammy","Thompson","King",(BLOB),20/10/85,"H","5","Frontend Developer","EMP-00099","+34553638556","dixonstephanie@hotmail.com","884 Jennifer Orchard
+Brianhaven, AR 69911","83224","EMP-00099","DEP-00007","OFI-00003","Asiento 68, Mesa 9","EMP-00099","Frontend Developer",14,"GENERAL","Tech Lead"
+"EMP-00100","50015546E","Sheri","Evans","Jones",(BLOB),05/04/78,"H","2","Software Engineer","EMP-00100","+34505579860","angelalopez@lynch.biz","1776 Daniel Square Apt. 752
+Saraton, OR 83080","43923","EMP-00100","DEP-00006","OFI-00001","Asiento 78, Mesa 15","EMP-00100","Backend Developer",5,"GENERAL","QA Engineer"
+"EMP-00001","29890704L","Timothy","Allen","Cervantes",(BLOB),25/10/71,"H","","Data Scientist","EMP-00001","+34261183591","kaylee39@gmail.com","944 Cynthia Light Suite 377
+South Elizabeth, DE 27985","98348","EMP-00001","DEP-00003","OFI-00002","Asiento 79, Mesa 43","EMP-00001","Fullstack Developer",15,"GENERAL","Fullstack Developer"
+"EMP-00002","90743950A","Andrew","Roy","Cox",(BLOB),03/04/69,"H","7","Tech Lead","EMP-00002","+34849607146","lmurphy@yahoo.com","2483 Aguilar Brooks Apt. 141
+Davidfort, MT 65374","36837","EMP-00002","DEP-00004","OFI-00001","Asiento 35, Mesa 10","EMP-00002","Software Engineer",4,"GENERAL","Product Manager"
+"EMP-00003","10282028Q","Jacob","Holmes","Miller",(BLOB),27/05/98,"M","","DevOps Engineer","EMP-00003","+34558748957","tlee@brown-james.com","16776 Lisa Views
+South Crystal, HI 80867","38858","EMP-00003","DEP-00003","OFI-00003","Asiento 20, Mesa 42","EMP-00003","Data Scientist",11,"GENERAL","QA Engineer"
+"EMP-00004","82072946E","Kristen","Smith","Rios",(BLOB),29/10/92,"H","8","Data Scientist","EMP-00004","+34287128895","wsherman@hotmail.com","3488 Ruiz Road Suite 765
+Lake Jamie, SD 36025","18786","EMP-00004","DEP-00001","OFI-00003","Asiento 51, Mesa 44","EMP-00004","CTO",3,"GENERAL","Frontend Developer"
+"EMP-00005","24660834G","Kara","Blair","Walker",(BLOB),02/07/95,"M","9","Tech Lead","EMP-00005","+34211904523","schneidernicole@torres.com","96807 Carl Squares Suite 603
+Port Andrewstad, NC 41313","23671","EMP-00005","DEP-00008","OFI-00001","Asiento 24, Mesa 2","EMP-00005","QA Engineer",15,"GENERAL","Software Engineer"
+"EMP-00006","88728704V","Ryan","Andrews","Ruiz",(BLOB),19/03/90,"M","5","Backend Developer","EMP-00006","+34230316998","dbrown@edwards-singleton.org","9038 William Way Suite 585
+South Willie, FL 17183","70498","EMP-00006","DEP-00004","OFI-00002","Asiento 90, Mesa 47","EMP-00006","Fullstack Developer",8,"GENERAL","Software Engineer"
+"EMP-00007","25954938J","Dillon","Cruz","Huang",(BLOB),25/07/04,"H","","Tech Lead","EMP-00007","+34765570577","joel20@kim.org","7959 Stephanie Mountain
+South Keith, LA 90172","71374","EMP-00007","DEP-00004","OFI-00002","Asiento 77, Mesa 32","EMP-00007","DevOps Engineer",8,"GENERAL","Backend Developer"
+"EMP-00008","41234881K","Dawn","Ramirez","Lewis",(BLOB),02/01/89,"H","6","Product Manager","EMP-00008","+34652719546","timothybyrd@hotmail.com","21291 Johnston Oval
+Millerton, OR 39438","96019","EMP-00008","DEP-00003","OFI-00001","Asiento 38, Mesa 12","EMP-00008","Backend Developer",2,"GENERAL","Software Engineer"
+"EMP-00009","60234647Q","Janice","Norman","Gillespie",(BLOB),12/10/99,"M","1","CTO","EMP-00009","+34559473972","ruth40@hicks.com","94792 James Key
+Leeshire, AR 62234","33606","EMP-00009","DEP-00003","OFI-00003","Asiento 5, Mesa 33","EMP-00009","DevOps Engineer",9,"GENERAL","QA Engineer"
+"EMP-00010","36624517F","Michael","Campos","Byrd",(BLOB),21/03/69,"M","7","Fullstack Developer","EMP-00010","+34335259586","greggcooper@yahoo.com","22339 Travis Stravenue Suite 742
+Smithmouth, NH 91097","46883","EMP-00010","DEP-00007","OFI-00001","Asiento 37, Mesa 22","EMP-00010","Frontend Developer",6,"GENERAL","Software Engineer"
+"EMP-00011","89106081X","Steven","Fowler","Franklin",(BLOB),10/08/05,"H","4","CTO","EMP-00011","+34611456752","brownelizabeth@vega-king.com","5559 Todd Parks Suite 205
+Lutztown, IA 60742","02540","EMP-00011","DEP-00004","OFI-00002","Asiento 95, Mesa 42","EMP-00011","Frontend Developer",15,"GENERAL","DevOps Engineer"
+"EMP-00012","69963995L","Douglas","Oliver","Johnson",(BLOB),22/02/61,"M","","Product Manager","EMP-00012","+34667210383","keysuzanne@hotmail.com","09987 Patrick Plains Apt. 557
+Martinezland, VA 71738","79202","EMP-00012","DEP-00004","OFI-00003","Asiento 23, Mesa 49","EMP-00012","Fullstack Developer",2,"ALUMNO","DevOps Engineer"
+"EMP-00013","98675754G","Betty","Mcclure","Patrick",(BLOB),23/04/81,"M","7","QA Engineer","EMP-00013","+34907200271","srich@gray-schroeder.com","44786 Sherman Mount Apt. 494
+West Brian, DC 12301","57004","EMP-00013","DEP-00001","OFI-00001","Asiento 27, Mesa 42","EMP-00013","Product Manager",12,"GENERAL","QA Engineer"
+"EMP-00014","44332079Q","Jennifer","HerNULLdez","Clark",(BLOB),29/03/68,"H","10","Fullstack Developer","EMP-00014","+34543478997","middletonmark@yahoo.com","74916 Herrera Forges
+Charleshaven, CT 09207","24525","EMP-00014","DEP-00006","OFI-00001","Asiento 75, Mesa 10","EMP-00014","Product Manager",12,"GENERAL","CTO"
+"EMP-00015","27384711Z","Stephanie","Wright","Chung",(BLOB),28/06/80,"H","","DevOps Engineer","EMP-00015","+34341232600","jharding@buckley.com","92486 Alexander Squares
+South Austin, NH 95181","43307","EMP-00015","DEP-00003","OFI-00003","Asiento 70, Mesa 24","EMP-00015","Fullstack Developer",8,"GENERAL","Tech Lead"
+"EMP-00016","57666567R","Melissa","Baird","Gibson",(BLOB),11/01/00,"M","4","Product Manager","EMP-00016","+34528783576","fostercasey@yahoo.com","1497 Rodney Lights
+East Christopherview, SD 91725","97782","EMP-00016","DEP-00005","OFI-00003","Asiento 47, Mesa 43","EMP-00016","Software Engineer",2,"GENERAL","Fullstack Developer"
+"EMP-00017","12146023E","Samantha","Kennedy","Gates",(BLOB),25/01/86,"H","6","Data Scientist","EMP-00017","+34854301247","baileymichael@barton-flynn.org","74161 Amy Underpass Suite 792
+New Douglas, RI 22486","19778","EMP-00017","DEP-00008","OFI-00001","Asiento 54, Mesa 41","EMP-00017","DevOps Engineer",4,"GENERAL","Tech Lead"
+"EMP-00018","81572029E","Christopher","Lawrence","Burns",(BLOB),14/02/85,"H","9","DevOps Engineer","EMP-00018","+34389930293","katelynandrade@hotmail.com","047 Lisa Crescent
+Port Tylerchester, MT 33919","64573","EMP-00018","DEP-00002","OFI-00003","Asiento 25, Mesa 5","EMP-00018","Backend Developer",6,"GENERAL","CTO"
+"EMP-00019","81123977X","Michael","Nash","Williamson",(BLOB),25/08/91,"H","7","Tech Lead","EMP-00019","+34624921573","joann40@gmail.com","71711 Villarreal Plains Apt. 593
+Kathleenside, WY 59819","98126","EMP-00019","DEP-00001","OFI-00002","Asiento 21, Mesa 43","EMP-00019","Software Engineer",7,"GENERAL","Software Engineer"
+"EMP-00020","21148739D","Lori","Gonzalez","Durham",(BLOB),13/10/74,"Hombre","2","Data Scientist","EMP-00020","+34972884102","simonheather@jones.com","7995 Paul Ridges Suite 521
+West Rodneyside, VA 96176","19493","EMP-00020","DEP-00008","OFI-00002","Asiento 23, Mesa 12","EMP-00020","Tech Lead",6,"GENERAL","Frontend Developer"
+"EMP-00021","40135584D","Lucas","Smith","Johnson",(BLOB),27/04/65,"M","10","Tech Lead","EMP-00021","+34323162262","qbrown@contreras.com","9071 Melissa Forest
+Margaretborough, KS 25582","58839","EMP-00021","DEP-00001","OFI-00002","Asiento 4, Mesa 10","EMP-00021","Tech Lead",6,"GENERAL","CTO"
+"EMP-00022","12481823E","Jack","Cox","Ramos",(BLOB),11/02/02,"H","7","Fullstack Developer","EMP-00022","+34503372730","burchedward@hotmail.com","1295 Davis Street Apt. 866
+Travisborough, MO 74854","71057","EMP-00022","DEP-00004","OFI-00002","Asiento 54, Mesa 38","EMP-00022","Fullstack Developer",4,"GENERAL","Product Manager"
+"EMP-00023","92039575S","Justin","Alvarez","Robinson",(BLOB),07/02/77,"M","","Backend Developer","EMP-00023","+34201900110","anthonygonzalez@gmail.com","918 Valentine Plains Apt. 467
+West Catherineport, RI 62375","68094","EMP-00023","DEP-00005","OFI-00003","Asiento 80, Mesa 2","EMP-00023","QA Engineer",9,"GENERAL","Data Scientist"
+"EMP-00024","83499222E","Jason","Hall","Guerra",(BLOB),25/02/92,"H","","CTO","EMP-00024","+34749348690","edickson@rivera.com","842 Cooper Harbor
+West Alexmouth, FL 53433","04148","EMP-00024","DEP-00004","OFI-00002","Asiento 60, Mesa 6","EMP-00024","Tech Lead",2,"GENERAL","Tech Lead"
+"EMP-00025","86668453Z","Ralph","Sutton","Williams",(BLOB),28/07/60,"H","4","Frontend Developer","EMP-00025","+34457257466","ronnie65@hotmail.com","638 Delgado Parks Apt. 113
+Lake Kaitlynberg, MD 32820","98237","EMP-00025","DEP-00002","OFI-00003","Asiento 46, Mesa 12","EMP-00025","Fullstack Developer",13,"GENERAL","DevOps Engineer"
+"EMP-00026","56043970P","Carol","Monroe","Morrison",(BLOB),23/04/66,"Mujer","10","QA Engineer","EMP-00026","+34847935657","allisonguerrero@gmail.com","580 Collier Shores Apt. 717
+Patriciahaven, VT 13060","02497","EMP-00026","DEP-00002","OFI-00003","Asiento 40, Mesa 28","EMP-00026","DevOps Engineer",7,"GENERAL","DevOps Engineer"
+"EMP-00027","85669323G","John","Wheeler","Garrett",(BLOB),01/07/82,"H","9","Fullstack Developer","EMP-00027","+34636171353","camposkristen@gmail.com","Unit 7639 Box 8612
+DPO AP 01904","97575","EMP-00027","DEP-00008","OFI-00003","Asiento 82, Mesa 45","EMP-00027","Tech Lead",11,"GENERAL","Frontend Developer"
+"EMP-00028","60135125S","Kim","Davidson","Blake",(BLOB),29/10/71,"M","","Data Scientist","EMP-00028","+34462181382","spencerkaren@gmail.com","Unit 6823 Box 0968
+DPO AP 40369","56594","EMP-00028","DEP-00002","OFI-00003","Asiento 3, Mesa 13","EMP-00028","CTO",6,"GENERAL","Backend Developer"
+"EMP-00029","36048959R","Manuel","Mendez","Lopez",(BLOB),29/12/59,"M","3","Data Scientist","EMP-00029","+34467866405","robin22@gmail.com","475 Jennifer Mountains Suite 519
+New Joseph, IL 89710","93383","EMP-00029","DEP-00008","OFI-00001","Asiento 39, Mesa 10","EMP-00029","CTO",0,"GENERAL","Fullstack Developer"
+"EMP-00030","19053433A                     ","Katelyn","Bennett","Spears",(BLOB),18/08/04,"M","9","QA Engineer","EMP-00030","+34476399216","kennedycarmen@gmail.com","7949 Charles Views
+South Leah, AL 68273","27169","EMP-00030","DEP-00002","OFI-00002","Asiento 56, Mesa 37","EMP-00030","CTO",3,"GENERAL","Backend Developer"
+"EMP-00031","96893019E","Andrew","Boyd","Bonilla",(BLOB),09/03/64,"M","3","Software Engineer","EMP-00031","+34285788331","vroth@watkins-rice.com","Unit 6948 Box 3703
+DPO AP 21986","63639","EMP-00031","DEP-00006","OFI-00003","Asiento 61, Mesa 48","EMP-00031","DevOps Engineer",8,"GENERAL","Data Scientist"
+"EMP-00032","45618195H","Valerie","Hayden","Cook",(BLOB),11/06/82,"H","6","DevOps Engineer","EMP-00032","+34289697286","kellynelson@gmail.com","031 Christopher Orchard
+New Jenniferfort, LA 92996","23161","EMP-00032","DEP-00002","OFI-00002","Asiento 43, Mesa 19","EMP-00032","Backend Developer",1,"ALUMNO","QA Engineer"
+"EMP-00033","22699716G","Michelle","Curtis","Johnson",(BLOB),15/04/75,"H","6","DevOps Engineer","EMP-00033","+34491353424","chanbrandon@yahoo.com","58136 White Brooks Suite 254
+Jacksonhaven, VA 57820","42340","EMP-00033","DEP-00008","OFI-00001","Asiento 40, Mesa 47","EMP-00033","Backend Developer",15,"GENERAL","Software Engineer"
+"EMP-00034","52841646C","Joshua","Hines","Gay",(BLOB),04/09/68,"H","1","Frontend Developer","EMP-00034","+34659416870","upalmer@castro.net","427 Jesus Vista Suite 675
+East Richard, WY 62875","36595","EMP-00034","DEP-00008","OFI-00002","Asiento 17, Mesa 20","EMP-00034","Frontend Developer",6,"GENERAL","Product Manager"
+"EMP-00035","36894430S","Robert","Ortiz","Rosales",(BLOB),21/01/94,"H","2","Tech Lead","EMP-00035","+34927674343","tracy05@gmail.com","166 Ellis Rapids
+East Trevor, NE 32315","43579","EMP-00035","DEP-00007","OFI-00001","Asiento 2, Mesa 46","EMP-00035","Data Scientist",13,"GENERAL","CTO"
+"EMP-00036","71789272Q","Jeremy","Chavez","Simmons",(BLOB),13/05/71,"M","3","Backend Developer","EMP-00036","+34909908250","dawn58@hotmail.com","28651 Michael Canyon
+Jenniferland, DE 58474","00585","EMP-00036","DEP-00002","OFI-00003","Asiento 83, Mesa 25","EMP-00036","DevOps Engineer",15,"GENERAL","QA Engineer"
+"EMP-00037","54253688T","Danielle","Ford","Braun",(BLOB),07/12/72,"H","8","Backend Developer","EMP-00037","+34545434997","mcclureveronica@holmes.net","Unit 3374 Box 0738
+DPO AP 18120","67553","EMP-00037","DEP-00003","OFI-00003","Asiento 29, Mesa 32","EMP-00037","QA Engineer",9,"GENERAL","Tech Lead"
+"EMP-00038","23626934T             ","William","Mills","Thomas",(BLOB),15/11/01,"H","","Frontend Developer","EMP-00038","+34890979263","morenoanthony@yahoo.com","USNS Martinez
+FPO AE 64683","52446","EMP-00038","DEP-00004","OFI-00001","Asiento 24, Mesa 26","EMP-00038","Backend Developer",3,"GENERAL","Backend Developer"
+"EMP-00039","26991419E","Anna","Chavez","Cantu",(BLOB),28/03/75,"H","5","DevOps Engineer","EMP-00039","+34708413595","taylorjonathan@kramer.net","91456 Carol Shoals
+Maryhaven, IA 68782","06015","EMP-00039","DEP-00008","OFI-00002","Asiento 71, Mesa 20","EMP-00039","CTO",0,"GENERAL","QA Engineer"
+"EMP-00040","83421934Z","Meredith","Maldonado","Williams",(BLOB),11/08/86,"H","2","Fullstack Developer","EMP-00040","+34651954229","jacob05@hotmail.com","0098 Sarah Light Suite 735
+Hawkinsside, MO 17592","75553","EMP-00040","DEP-00004","OFI-00003","Asiento 59, Mesa 30","EMP-00040","DevOps Engineer                              ",4,"GENERAL","DevOps Engineer"
+"EMP-00041","56251394H","Christopher","Foster","Watts",(BLOB),21/02/64,"Mujer","6","Backend Developer","EMP-00041","+34798832232","alexander36@gmail.com","179 Ashley Fort
+Matamouth, LA 01070","75668","EMP-00041","DEP-00007","OFI-00002","Asiento 23, Mesa 10","EMP-00041","DevOps Engineer",11,"GENERAL","Backend Developer"
+"EMP-00042","69339209M","Kristin","Pearson","Jones",(BLOB),14/08/85,"M","4","Data Scientist","EMP-00042","+34858363690","chunt@montgomery.com","140 Tracey Crest
+East Ronald, TN 21215","39647","EMP-00042","DEP-00003","OFI-00002","Asiento 62, Mesa 8","EMP-00042","Tech Lead",14,"GENERAL","Software Engineer"
+"EMP-00043","53009231G","Joseph","Gray","York",(BLOB),25/03/01,"Hombre","4","DevOps Engineer","EMP-00043","+34909431452","onelson@wilson.com","77490 Todd River
+Vanessastad, MD 20688","09226","EMP-00043","DEP-00004","OFI-00002","Asiento 5, Mesa 32","EMP-00043","Fullstack Developer              ",1,"GENERAL","Software Engineer"
+"EMP-00044","97640317G","Sierra","Dennis","Nelson",(BLOB),17/03/72,"M","9","Software Engineer","EMP-00044","+34377930487","kevinmorgan@rose.net","USS Sanford
+FPO AA 95640","39027","EMP-00044","DEP-00003","OFI-00001","Asiento 78, Mesa 36","EMP-00044","Product Manager",13,"GENERAL","Fullstack Developer"
+"EMP-00045","62948405G","Tammy","Nelson","Spears",(BLOB),02/09/76,"M","","DevOps Engineer","EMP-00045","+34504427250","archerjonathan@lewis.com","4886 Peterson Curve
+Walterport, CO 54363","44331","EMP-00045","DEP-00001","OFI-00003","Asiento 52, Mesa 20","EMP-00045","Backend Developer",7,"GENERAL","Data Scientist"
+"EMP-00046","16098656J","Matthew","King","Goodwin",(BLOB),11/04/73,"M","","Data Scientist","EMP-00046","+34933764501","weavertroy@hotmail.com","PSC 1788, Box 9441
+APO AP 71404","81785","EMP-00046","DEP-00005","OFI-00002","Asiento 25, Mesa 33","EMP-00046","QA Engineer",15,"GENERAL","Backend Developer"
+"EMP-00047","39623272E","Brianna","Ellis","Nelson",(BLOB),29/03/81,"M","","Data Scientist","EMP-00047","+34621866991","iboyle@yahoo.com","38219 Klein Tunnel Suite 605
+Paulmouth, MO 76923","75531","EMP-00047","DEP-00007","OFI-00002","Asiento 55, Mesa 38","EMP-00047","QA Engineer",12,"GENERAL","QA Engineer"
+"EMP-00048","49316801V                            ","Rhonda","Walker","Baker",(BLOB),26/05/06,"M","7","CTO","EMP-00048","+34462656794","frank18@hotmail.com","94613 Kaiser Trail Suite 794
+Tammyton, HI 06845","38420","EMP-00048","DEP-00006","OFI-00003","Asiento 39, Mesa 22","EMP-00048","Software Engineer",11,"GENERAL","Software Engineer"
+"EMP-00049","75960551S","Michael","Wilson","Castro",(BLOB),30/04/83,"M","","Frontend Developer","EMP-00049","+34106334212","andrea01@yahoo.com","18801 Woods Dam
+Elizabethbury, WV 29799","37526","EMP-00049","DEP-00007","OFI-00002","Asiento 77, Mesa 36","EMP-00049","Data Scientist",15,"GENERAL","DevOps Engineer"
+"EMP-00050","32804147Y","Pamela","Brown","Drake",(BLOB),25/04/60,"M","8","Fullstack Developer","EMP-00050","+34594340715","kellywoods@yahoo.com","086 Michael Turnpike Apt. 842
+Samanthashire, NH 97574","52565","EMP-00050","DEP-00005","OFI-00001","Asiento 98, Mesa 32","EMP-00050","QA Engineer",1,"ALUMNO","Backend Developer"
+"EMP-00051","23373126C","Michael","Elliott","Chen",(BLOB),16/11/89,"H","10","Tech Lead","EMP-00051","+34490780809","steven08@gmail.com","35690 Fisher Land
+Kristinaville, NC 49588","74464","EMP-00051","DEP-00008","OFI-00002","Asiento 7, Mesa 33","EMP-00051","Data Scientist",2,"ALUMNO","DevOps Engineer"
+"EMP-00052","74669672B","Tammy","Gonzalez","Miller",(BLOB),08/03/65,"H","","Backend Developer","EMP-00052","+34706188633","qrichardson@hotmail.com","10865 Stephen Rue
+Jamesbury, AZ 36861","44239","EMP-00052","DEP-00008","OFI-00001","Asiento 52, Mesa 36","EMP-00052","QA Engineer",15,"GENERAL","Product Manager"
+"EMP-00053","24271260G","Nicole","Cline","Edwards",(BLOB),03/11/75,"H","4","CTO","EMP-00053","+34486982830","douglas49@yahoo.com","910 Andrea Path
+Christinaville, NY 90833","52338","EMP-00053","DEP-00008","OFI-00003","Asiento 51, Mesa 39","EMP-00053","Data Scientist",12,"GENERAL","Data Scientist"
+"EMP-00054","76569343C                         ","Joseph","Ramirez","Castillo",(BLOB),12/10/86,"H","1","Backend Developer","EMP-00054","+34343238425","livingstonlogan@johnson.net","3853 Kennedy Manors
+Khanton, SD 09337","00844","EMP-00054","DEP-00003","OFI-00001","Asiento 87, Mesa 16","EMP-00054","Tech Lead",6,"GENERAL","Fullstack Developer"
+"EMP-00055","60237663L","Heather","Smith","Martin",(BLOB),27/11/82,"M","6","Tech Lead","EMP-00055","+34239826899","david33@diaz.net","038 Fisher Ridge Suite 913
+Ashleyfort, AK 72147","53709","EMP-00055","DEP-00006","OFI-00003","Asiento 37, Mesa 11","EMP-00055","CTO",8,"GENERAL","QA Engineer"
+"EMP-00056","30075854L","Daniel","Maldonado","Fischer",(BLOB),05/01/86,"H","","QA Engineer","EMP-00056","+34454736437","zgreen@yahoo.com","0692 Danny Creek Apt. 516
+Crystalburgh, HI 75497","89609","EMP-00056","DEP-00008","OFI-00002","Asiento 35, Mesa 25","EMP-00056","Fullstack Developer",10,"GENERAL","Tech Lead"
+"EMP-00057","85949836D","Chad","Mitchell","Mccoy",(BLOB),14/03/70,"M","","Frontend Developer","EMP-00057","+34396216859","brandy55@yahoo.com","961 Kenneth Grove Apt. 592
+Port Jodiside, MN 11885","19886","EMP-00057","DEP-00008","OFI-00002","Asiento 94, Mesa 21","EMP-00057","Product Manager",6,"GENERAL","Product Manager"
+"EMP-00058","42432489L","James","Mccormick","Welch",(BLOB),11/10/63,"M","8","Backend Developer","EMP-00058","+34597401325","courtney27@lara.info","213 Tiffany Stream
+North Stevenville, PA 70862","27144","EMP-00058","DEP-00005","OFI-00001","Asiento 24, Mesa 40","EMP-00058","Tech Lead",6,"GENERAL","QA Engineer"
+"EMP-00059","81643898Q","Kimberly","Howard","Adams",(BLOB),31/10/05,"H","6","Software Engineer","EMP-00059","+34694783407","pestrada@hotmail.com","189 Sanders Prairie Apt. 138
+South Martinburgh, IL 61642","24740","EMP-00059","DEP-00005","OFI-00002","Asiento 23, Mesa 30","EMP-00059","Backend Developer",12,"GENERAL","Tech Lead"
+"EMP-00060","29669777F","Miguel","Houston","Arias",(BLOB),19/03/85,"M","10","QA Engineer","EMP-00060","+34594342364","williamscrystal@pena.org","32235 Carl Oval
+Jasmineside, IA 55697","38222","EMP-00060","DEP-00002","OFI-00003","Asiento 97, Mesa 41","EMP-00060","Tech Lead",12,"GENERAL","Backend Developer"
+"EMP-00061","72243889S","Russell","Ortiz","Mccormick",(BLOB),17/10/00,"H","6","Software Engineer","EMP-00061","+34250738257","alexanderyoung@yahoo.com","11414 Peterson Fork
+East Austin, OR 88531","15354","EMP-00061","DEP-00008","OFI-00002","Asiento 48, Mesa 32","EMP-00061","Backend Developer",12,"GENERAL","Fullstack Developer"
+"EMP-00062","82574209T","Robert","Gonzalez","Gill",(BLOB),14/10/63,"H","6","CTO","EMP-00062","+34464163459","matthewwalker@craig.com","948 Paul Turnpike Apt. 805
+Romerofort, AR 34696","68537","EMP-00062","DEP-00006","OFI-00001","Asiento 54, Mesa 41","EMP-00062","CTO",4,"GENERAL","QA Engineer"
+"EMP-00063","39694558P","Jason","Rasmussen","White",(BLOB),28/11/75,"H","8","Frontend Developer","EMP-00063","+34666524471","ysmith@hood.com","160 John Track
+Davidchester, CA 95760","80172","EMP-00063","DEP-00006","OFI-00002","Asiento 46, Mesa 35","EMP-00063","Tech Lead",6,"GENERAL","Data Scientist"
+"EMP-00064","35324533Y","Matthew","Haynes","Walker",(BLOB),30/05/90,"H","8","Fullstack Developer","EMP-00064","+34133334777","simmonskenneth@gmail.com","706 David Radial
+Lake Juliaborough, NJ 07683","84997","EMP-00064","DEP-00004","OFI-00003","Asiento 16, Mesa 26","EMP-00064","QA Engineer",6,"GENERAL","QA Engineer"
+"EMP-00065","83905272F","Ronald","Harris","Wood",(BLOB),07/04/66,"M","8","Tech Lead","EMP-00065","+34146176712","jose66@young.org","USCGC Kim
+FPO AA 57774","97411","EMP-00065","DEP-00001","OFI-00002","Asiento 88, Mesa 22","EMP-00065","DevOps Engineer",12,"GENERAL","Data Scientist"
+"EMP-00066","87553380Q","Angela","Cox","Knox",(BLOB),31/12/74,"H","2","Backend Developer","EMP-00066","+34409433423","sierrarodriguez@yahoo.com","54320 Devin Spurs
+West Benjamin, WY 71901","26495","EMP-00066","DEP-00004","OFI-00001","Asiento 15, Mesa 41","EMP-00066","Data Scientist",3,"GENERAL","Product Manager"
+"EMP-00067","98282744H","Destiny","Green","West",(BLOB),05/07/05,"H","","CTO","EMP-00067","+34587146708","elizabeth13@ayers.com","9042 Webster Village Suite 391
+Lake Ronald, NH 30470","11741","EMP-00067","DEP-00007","OFI-00002","Asiento 55, Mesa 26","EMP-00067","Product Manager",6,"GENERAL","QA Engineer"
+"EMP-00068","11297702X","Natalie","Wolfe","Stout",(BLOB),08/08/63,"M","6","Data Scientist","EMP-00068","+34686883427","zbeck@ritter.com","85284 Olsen Shore Apt. 093
+South Christina, NE 29449","34650","EMP-00068","DEP-00008","OFI-00002","Asiento 5, Mesa 27","EMP-00068","DevOps Engineer",1,"GENERAL","Software Engineer"
+"EMP-00069","10000824X","Amanda","Peterson","Larson",(BLOB),21/06/77,"H","","Software Engineer","EMP-00069","+34625577979","john26@chapman.com","PSC 6418, Box 8646
+APO AA 56388","69498","EMP-00069","DEP-00002","OFI-00001","Asiento 81, Mesa 5","EMP-00069","Software Engineer",0,"GENERAL","Product Manager"
+"EMP-00070","78387992J","Erin","Pacheco","Woods",(BLOB),01/10/74,"M","8","Backend Developer","EMP-00070","+34248715250","johnsonbailey@yahoo.com","83184 Johnson Centers
+Youngborough, NE 24827","78091","EMP-00070","DEP-00004","OFI-00003","Asiento 66, Mesa 8","EMP-00070","Data Scientist",3,"GENERAL","Data Scientist"
+"EMP-00071","44014260B","Eugene","Pham","Woods",(BLOB),25/10/75,"M","","Frontend Developer","EMP-00071","+34467640971","denise97@freeman.org","4122 Jerry Knoll
+South Erin, VT 41949","22396","EMP-00071","DEP-00002","OFI-00003","Asiento 76, Mesa 25","EMP-00071","Tech Lead",3,"GENERAL","QA Engineer"
+"EMP-00072","19281785B","Russell","Clark","Sanford",(BLOB),23/06/70,"M","","Tech Lead","EMP-00072","+34161522338","rkim@boyd-yang.info","634 Hall Keys Apt. 953
+New Lindsayton, MA 54725","81936","EMP-00072","DEP-00008","OFI-00001","Asiento 26, Mesa 34","EMP-00072","Data Scientist",13,"GENERAL","Software Engineer"
+"EMP-00073","50050230E","Jeffrey","Graves","Taylor",(BLOB),13/06/60,"H","6","Data Scientist","EMP-00073","+34995417598","markforbes@carter-cox.com","0425 Wright Burgs Suite 863
+Andrewtown, IL 94899","64734","EMP-00073","DEP-00005","OFI-00001","Asiento 64, Mesa 39","EMP-00073","DevOps Engineer",7,"GENERAL","CTO"
+"EMP-00074","38786750X","Zachary","Turner","Jones",(BLOB),18/01/63,"M","7","Software Engineer","EMP-00074","+34112126279","larry55@bell.com","188 Obrien Views Suite 060
+Spearsborough, ME 23126","50210","EMP-00074","DEP-00003","OFI-00001","Asiento 72, Mesa 20","EMP-00074","QA Engineer",8,"GENERAL","Fullstack Developer"
+"EMP-00075","84638022T","Evan","Koch","Silva",(BLOB),07/03/98,"H","10","Fullstack Developer","EMP-00075","+34357288369","karawise@joyce-ibarra.com","Unit 0866 Box 8488
+DPO AP 61699","68212","EMP-00075","DEP-00002","OFI-00002","Asiento 61, Mesa 7","EMP-00075","QA Engineer",12,"GENERAL","Product Manager"
+"EMP-00076","99725222M","Nicholas","Ross","Hill",(BLOB),12/02/97,"M","3","Fullstack Developer","EMP-00076","+34875297778","elizabeth43@francis.biz","7175 Destiny Street
+Coxside, VT 99319","09536","EMP-00076","DEP-00008","OFI-00002","Asiento 86, Mesa 30","EMP-00076","Fullstack Developer",10,"GENERAL","Software Engineer"
+"EMP-00077","79094401T","Jeremiah","Owens","Paul",(BLOB),02/07/60,"H","4","Tech Lead","EMP-00077","+34868364119","whickman@hotmail.com","USNV Mcdonald
+FPO AE 90997","49061","EMP-00077","DEP-00003","OFI-00003","Asiento 46, Mesa 4","EMP-00077","Tech Lead",6,"GENERAL","DevOps Engineer"
+"EMP-00078","49007437A","James","Moore","Moore",(BLOB),28/01/76,"H","","Frontend Developer","EMP-00078","+34835879284","jennifergibson@gmail.com","452 King Inlet
+Joseshire, RI 42053","34734","EMP-00078","DEP-00001","OFI-00002","Asiento 63, Mesa 48","EMP-00078","Product Manager",10,"GENERAL","Frontend Developer"
+"EMP-00079","19807660Z","Phillip","Crawford","Evans",(BLOB),16/08/65,"M","3","Fullstack Developer","EMP-00079","+34981190359","westleah@gmail.com","562 Drew Underpass Apt. 978
+Johnville, CO 77091","20305","EMP-00079","DEP-00003","OFI-00002","Asiento 15, Mesa 36","EMP-00079","Software Engineer",1,"ALUMNO","QA Engineer"
+"EMP-00080","72249339Z","John","Roberts","Wagner",(BLOB),21/12/65,"H","6","Data Scientist","EMP-00080","+34132866399","joseph01@hotmail.com","4327 Rachel Well Apt. 178
+Chaseshire, OH 36288","54739","EMP-00080","DEP-00003","OFI-00002","Asiento 14, Mesa 6","EMP-00080","QA Engineer",9,"GENERAL","DevOps Engineer"
+"EMP-00081","37720971M","Andrew","Bernard","Fuentes",(BLOB),11/05/67,"M","","CTO","EMP-00081","+34877877482","dillon50@hotmail.com","589 Nicole Extension
+Edgarport, OH 79976","49260","EMP-00081","DEP-00004","OFI-00002","Asiento 54, Mesa 50","EMP-00081","Data Scientist",3,"GENERAL","Tech Lead"
+"EMP-00082","24285407Y","Abigail","Morris","Day",(BLOB),02/09/61,"H","3","Tech Lead","EMP-00082","+34460815446","jaredcarter@gmail.com","9152 Lewis Forge
+North Lindsay, PA 85556","99549","EMP-00082","DEP-00008","OFI-00001","Asiento 38, Mesa 48","EMP-00082","Product Manager",12,"GENERAL","DevOps Engineer"
+"EMP-00083","62027304F","Kevin","Clark","Jones",(BLOB),22/02/82,"M","","CTO","EMP-00083","+34435959943","johncrosby@gmail.com","409 Matthews Bridge Suite 487
+Lake Janetmouth, NH 50322","72168","EMP-00083","DEP-00001","OFI-00003","Asiento 52, Mesa 7","EMP-00083","Frontend Developer",4,"GENERAL","DevOps Engineer"
+"EMP-00084","55402871B","Samantha","Holt","Martinez",(BLOB),17/01/99,"M","6","Data Scientist","EMP-00084","+34745295819","smoore@adams.biz","010 Michelle Loaf
+Lawsonview, IL 59093","27385","EMP-00084","DEP-00004","OFI-00002","Asiento 7, Mesa 17","EMP-00084","Fullstack Developer",12,"GENERAL","Frontend Developer"
+"EMP-00085","70450801F","Pamela","Valentine","Gonzalez",(BLOB),27/10/98,"M","2","CTO","EMP-00085","+34389362819","sonya34@hotmail.com","70393 Robert Spring Apt. 801
+Watkinstown, KY 10707","40466","EMP-00085","DEP-00008","OFI-00003","Asiento 49, Mesa 45","EMP-00085","DevOps Engineer",4,"GENERAL","Tech Lead"
+"EMP-00086","75744257J","Dennis","Romero","Lee",(BLOB),20/10/66,"M","4","Data Scientist","EMP-00086","+34414602564","zgarza@yahoo.com","USNV Roberts
+FPO AE 29586","36163","EMP-00086","DEP-00007","OFI-00002","Asiento 47, Mesa 23","EMP-00086","Tech Lead",1,"GENERAL","Fullstack Developer"
+"EMP-00087","57763531C","Ann","Crane","Doyle",(BLOB),02/12/68,"H","4","Software Engineer","EMP-00087","+34   777207857","robertsmith@gmail.com","Unit 2059 Box 9252
+DPO AP 99643","39637","EMP-00087","DEP-00005","OFI-00002","Asiento 68, Mesa 1","EMP-00087","Software Engineer",14,"GENERAL","Software Engineer"
+"EMP-00088","19260757M","Paul","Wilkins","Shaffer",(BLOB),30/11/01,"M","5","Tech Lead","EMP-00088","+34320693690","nyoung@peck.com","96586 Timothy Roads Apt. 904
+North Christina, AK 84796","97798","EMP-00088","DEP-00001","OFI-00002","Asiento 76, Mesa 33","EMP-00088","Frontend Developer",3,"GENERAL","Frontend Developer"
+"EMP-00089","52732746W","Melissa","Johnson","Barker",(BLOB),25/06/87,"M","3","Product Manager","EMP-00089","+34884586541","dhinton@hotmail.com","PSC 1863, Box 6414
+APO AP 49167","26745","EMP-00089","DEP-00004","OFI-00001","Asiento 52, Mesa 42","EMP-00089","Tech Lead",10,"GENERAL","Frontend Developer"
+"EMP-00090","38495593X","Deanna","King","Miller",(BLOB),15/05/82,"M","6","Software Engineer","EMP-00090","+34118131247","debbieayala@sanders.com","887 Morrison Fork Apt. 442
+Andrewfort, GA 86890","60294","EMP-00090","DEP-00007","OFI-00001","Asiento 49, Mesa 8","EMP-00090","QA Engineer",8,"GENERAL","Frontend Developer"
+"EMP-00091","49578980L","Karen","Patterson","Morgan",(BLOB),09/11/97,"H","5","Fullstack Developer","EMP-00091","+34   368968288","hdixon@fischer.com","Unit 1252 Box 6416
+DPO AA 95130","04313","EMP-00091","DEP-00001","OFI-00003","Asiento 98, Mesa 1","EMP-00091","QA Engineer",12,"GENERAL","Tech Lead"
+"EMP-00092","14164611S","Nicole","Ferguson","James",(BLOB),20/04/78,"M","4","Software Engineer","EMP-00092","+34170697748","cbarnes@gmail.com","54199 Paula Ports
+West Daniel, CA 55167","06525","EMP-00092","DEP-00003","OFI-00002","Asiento 9, Mesa 37","EMP-00092","DevOps Engineer",10,"GENERAL","DevOps Engineer"
+"EMP-00093","40920140N","William","Calderon","Butler",(BLOB),19/03/69,"M","","Fullstack Developer","EMP-00093","+34692854468","juliewalsh@murphy.org","PSC 7361, Box 8808
+APO AA 58182","38279","EMP-00093","DEP-00002","OFI-00003","Asiento 80, Mesa 45","EMP-00093","Tech Lead",4,"GENERAL","Fullstack Developer"
+"EMP-00094","86183511G","Christina","Thomas","Foster",(BLOB),12/11/75,"H","","CTO","EMP-00094","+34479934428","sabrinastone@vaughn-mendez.org","48452 Jacqueline Locks Apt. 387
+Catherinehaven, AL 79690","30000","EMP-00094","DEP-00004","OFI-00002","Asiento 76, Mesa 24","EMP-00094","Data Scientist",0,"GENERAL","QA Engineer"
+"EMP-00095","60485781J","Jennifer","Green","Harris",(BLOB),15/11/65,"M","5","Backend Developer","EMP-00095","+34933413450","claudia56@gmail.com","7267 Smith Forest Apt. 070
+Michelemouth, WV 33127","07272","EMP-00095","DEP-00001","OFI-00003","Asiento 65, Mesa 35","EMP-00095","Product Manager",11,"GENERAL","QA Engineer"
+"EMP-00096","45538682Q","Joshua","Thompson","Williams",(BLOB),04/05/86,"H","","Data Scientist","EMP-00096","+34871996817","robertgonzalez@walker.com","79941 Michelle Land Apt. 645
+Mooreland, LA 93086","11557","EMP-00096","DEP-00001","OFI-00002","Asiento 51, Mesa 29","EMP-00096","Fullstack Developer",10,"GENERAL","Fullstack Developer"
+"EMP-00097","45622206G","Deborah","Robinson","Shepard",(BLOB),28/06/66,"H","","Software Engineer","EMP-00097","+34166131517","oroberts@yahoo.com","641 Williams Overpass Apt. 536
+South Michaelfort, MN 61353","99481","EMP-00097","DEP-00004","OFI-00001","Asiento 30, Mesa 49","EMP-00097","Data Scientist",13,"GENERAL","Product Manager"
+"EMP-00098","23622453G","Jeffrey","Johnson","Brown",(BLOB),19/11/69,"M","10","Fullstack Developer","EMP-00098","+34   765872367","christinewilliams@cook.com","0985 Vanessa Flats Suite 696
+New Margaretmouth, LA 73656","45911","EMP-00098","DEP-00001","OFI-00003","Asiento 12, Mesa 17","EMP-00098","Frontend Developer",1,"ALUMNO","CTO"

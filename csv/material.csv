@@ -1,0 +1,31 @@
+"ID_MATERIAL","NOMBRE","DESCRIPCION","TIPO","CANTIDAD_DISPONIBLE"
+"MAT-00001","Laptop Dell","Laptop Dell Latitude 5500","Hardware",87
+"MAT-00002","Monitor HP","Monitor HP 24 pulgadas","Hardware",43
+"MAT-00003","Teclado Logitech","Teclado mecánico Logitech","Accesorios",194
+"MAT-00004","Ratón Microsoft","Ratón ergonómico Microsoft","Accesorios",141
+"MAT-00005","Silla Ergonómica","Silla ergonómica para oficina","Accesorios",72
+"MAT-00006","Software Office","Licencia Office 365","Licencia",291
+"MAT-00007","Tablet Samsung","Tablet Samsung Galaxy Tab S6","Hardware",53
+"MAT-00008","Impresora Canon","Impresora multifuncional Canon","Hardware",6
+"MAT-00009","Smartphone Apple","iPhone 12","Hardware",61
+"MAT-00010","Software Adobe","Licencia Adobe Creative Cloud","Licencia",113
+"MAT-00011","Proyector Epson","Proyector Epson PowerLite","Hardware",7
+"MAT-00012","Auriculares Bose","Auriculares Bose QC35","Accesorios",89
+"MAT-00013","Router Cisco","Router Cisco RV340","Hardware",14
+"MAT-00014","Cámara Logitech","Cámara web Logitech C920","Accesorios",80
+"MAT-00015","Escritorio Ajustable","Escritorio de altura ajustable","Accesorios",32
+"MAT-00016","Switch Cisco","Switch Cisco 2960","Hardware",16
+"MAT-00017","Licencia VMware","Licencia VMware Workstation","Licencia",89
+"MAT-00018","Microfono Blue","Micrófono Blue Yeti","Accesorios",54
+"MAT-00019","Disco Duro Externo","Disco duro externo Seagate 2TB","Accesorios",42
+"MAT-00020","Software Antivirus","Licencia Kaspersky Antivirus","Licencia",189
+"MAT-00021","Servidor HP","Servidor HP ProLiant","Hardware",-1
+"MAT-00022","Módem Netgear","Módem Netgear Nighthawk","Hardware",22
+"MAT-00023","Teclado Microsoft","Teclado Microsoft Sculpt","Accesorios",135
+"MAT-00024","Ratón Logitech","Ratón Logitech MX Master","Accesorios",110
+"MAT-00025","Impresora HP","Impresora HP LaserJet","Hardware",8
+"MAT-00026","Altavoces JBL","Altavoces JBL Charge 4","Accesorios",76
+"MAT-00027","Software SAP","Licencia SAP Business One","Licencia",141
+"MAT-00028","Router TP-Link","Router TP-Link Archer","Hardware",37
+"MAT-00029","Laptop HP","Laptop HP EliteBook 850","Hardware",79
+"MAT-00030","Proyector BenQ","Proyector BenQ MW535A","Hardware",9
