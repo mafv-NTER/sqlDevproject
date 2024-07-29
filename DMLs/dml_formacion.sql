@@ -1,0 +1,69 @@
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00001', '12345678A', 'Juan', 'Perez', 'Gomez', NULL, TO_DATE('1985-05-15', 'YYYY-MM-DD'), 'H', NULL, 'Desarrollador');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00002', '23456789B', 'Maria', 'Garcia', 'Lopez', NULL, TO_DATE('1990-07-22', 'YYYY-MM-DD'), 'M', NULL, 'Analista de sistemas');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00003', '34567890C', 'Antonio', 'Lopez', 'Martinez', NULL, TO_DATE('1988-03-30', 'YYYY-MM-DD'), 'H', 'EMP-00006', 'Ingeniero de soporte');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00004', '45678901D', 'Ana', 'Sanchez', 'Fernandez', NULL, TO_DATE('1992-11-10', 'YYYY-MM-DD'), 'M', NULL, 'Gerente de proyecto');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00005', '56789012E', 'Carlos', 'Gomez', 'Diaz', NULL, TO_DATE('1986-08-18', 'YYYY-MM-DD'), 'H', NULL, 'Consultor de TI');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00006', '67890123F', 'Laura', 'Martinez', 'Ruiz', NULL, TO_DATE('1991-04-25', 'YYYY-MM-DD'), 'M', NULL, 'Administrador de sistemas');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00007', '78901234G', 'Francisco', 'Diaz', 'Garcia', NULL, TO_DATE('1987-09-12', 'YYYY-MM-DD'), 'H', 'EMP-00004', 'Desarrollador web');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00008', '89012345H', 'Marta', 'Fernandez', 'Santos', NULL, TO_DATE('1993-12-05', 'YYYY-MM-DD'), 'M', 'EMP-00002', 'Especialista en seguridad');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00009', '90123456I', 'David', 'Ruiz', 'Hernandez', NULL, TO_DATE('1984-06-20', 'YYYY-MM-DD'), 'H', 'EMP-00003', 'Arquitecto de software');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00010', '01234567J', 'Sara', 'Gutierrez', 'Moreno', NULL, TO_DATE('1989-01-15', 'YYYY-MM-DD'), 'M', 'EMP-00004', 'Diseñadora UX/UI');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00011', '12345678K', 'Jesus', 'Herrera', 'Navarro', NULL, TO_DATE('1983-10-10', 'YYYY-MM-DD'), 'H', 'EMP-00005', 'Analista de datos');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00012', '23456789L', 'Lucia', 'Romero', 'Alonso', NULL, TO_DATE('1994-02-28', 'YYYY-MM-DD'), 'M', 'EMP-00006', 'Especialista en redes');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00013', '34567890M', 'Miguel', 'Vazquez', 'Perez', NULL, TO_DATE('1986-07-07', 'YYYY-MM-DD'), 'H', 'EMP-00001', 'Desarrollador móvil');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00014', '45678901N', 'Ines', 'Alvarez', 'Torres', NULL, TO_DATE('1992-03-19', 'YYYY-MM-DD'), 'M', 'EMP-00002', 'Analista de negocio');
+INSERT INTO Info_Empleado_Personal (ID_empleado, DNI, Nombre, Apellido1, Apellido2, Foto, Fecha_nacimiento, SEXO, ID_mentor, Profesion) VALUES ('EMP-00015', '56789012O', 'Pablo', 'Molina', 'Serrano', NULL, TO_DATE('1990-11-25', 'YYYY-MM-DD'), 'H', 'EMP-00005', 'Consultor de BI');
+
+
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00001', '+34 600123456', 'juan.perez@empresa.com', 'Calle Mayor 1, Madrid', '28001');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00002', '+34 600123457', 'maria.garcia@empresa.com', 'Avenida Libertad 45, Madrid', '28002');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00003', '+34 600123458', 'antonio.lopez@empresa.com', 'Calle del Sol 23, Madrid', '28003');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00004', '+34 600123459', 'ana.sanchez@empresa.com', 'Paseo de la Habana 14, Madrid', '28004');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00005', '+34 600123460', 'carlos.gomez@empresa.com', 'Calle de la Luna 10, Madrid', '28005');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00006', '+34 600123461', 'laura.martinez@empresa.com', 'Calle de las Estrellas 5, Madrid', '28006');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00007', '+34 600123462', 'francisco.diaz@empresa.com', 'Calle de la Tierra 7, Madrid', '28007');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00008', '+34 600123463', 'marta.fernandez@empresa.com', 'Calle de los Cometas 9, Madrid', '28008');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00009', '+34 600123464', 'david.ruiz@empresa.com', 'Calle de los Planetas 3, Madrid', '28009');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00010', '+34 600123465', 'sara.gutierrez@empresa.com', 'Avenida del Universo 8, Madrid', '28010');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00011', '+34 600123466', 'jesus.herrera@empresa.com', 'Calle de la Vía Láctea 12, Madrid', '28011');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00012', '+34 600123467', 'lucia.romero@empresa.com', 'Calle de los Meteoros 4, Madrid', '28012');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00013', '+34 600123468', 'miguel.vazquez@empresa.com', 'Calle de los Asteroides 2, Madrid', '28013');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00014', '+34 600123469', 'ines.alvarez@empresa.com', 'Calle de los Satélites 6, Madrid', '28014');
+INSERT INTO Info_Empleado_Contacto (ID_empleado, Telefono, Email, Direccion, Codigo_postal) VALUES ('EMP-00015', '+34 600123470', 'pablo.molina@empresa.com', 'Avenida del Espacio 11, Madrid', '28015');
+
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00001', 'Desarrollo', 'EMP-00001');
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00002', 'Soporte', 'EMP-00002');
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00003', 'Recursos Humanos', 'EMP-00003');
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00004', 'Marketing', 'EMP-00004');
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00005', 'Ventas', 'EMP-00005');
+INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-00006', 'Finanzas', 'EMP-00006');
+
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00001', 'Java', 'Lenguaje de programación orientado a objetos');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00002', 'Python', 'Lenguaje de programación interpretado, interactivo');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00003', 'JavaScript', 'Lenguaje de programación interpretado, basado en prototipos');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00004', 'C#', 'Lenguaje de programación orientado a objetos desarrollado por Microsoft');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00005', 'Ruby', 'Lenguaje de programación interpretado, reflexivo');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00006', 'PHP', 'Lenguaje de programación del lado del servidor');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00007', 'Swift', 'Lenguaje de programación para iOS y macOS');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00008', 'Kotlin', 'Lenguaje de programación interoperable con Java');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00009', 'Go', 'Lenguaje de programación desarrollado por Google');
+
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00001', 'TEC-00001', 'DEP-00001', TO_DATE('2023-01-10', 'YYYY-MM-DD'), TO_DATE('2023-02-10', 'YYYY-MM-DD'), 'EMP-00001');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00002', 'TEC-00002', 'DEP-00002', TO_DATE('2023-02-15', 'YYYY-MM-DD'), TO_DATE('2023-03-15', 'YYYY-MM-DD'), 'EMP-00002');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00003', 'TEC-00003', 'DEP-00003', TO_DATE('2023-03-20', 'YYYY-MM-DD'), TO_DATE('2023-04-20', 'YYYY-MM-DD'), 'EMP-00003');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00004', 'TEC-00004', 'DEP-00004', TO_DATE('2023-04-25', 'YYYY-MM-DD'), TO_DATE('2023-05-25', 'YYYY-MM-DD'), 'EMP-00004');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00005', 'TEC-00005', 'DEP-00005', TO_DATE('2023-05-30', 'YYYY-MM-DD'), TO_DATE('2023-06-30', 'YYYY-MM-DD'), 'EMP-00005');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00006', 'TEC-00006', 'DEP-00006', TO_DATE('2023-07-05', 'YYYY-MM-DD'), TO_DATE('2023-08-05', 'YYYY-MM-DD'), 'EMP-00006');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00007', 'TEC-00007', 'DEP-00001', TO_DATE('2023-08-10', 'YYYY-MM-DD'), TO_DATE('2023-09-10', 'YYYY-MM-DD'), 'EMP-00007');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00008', 'TEC-00008', 'DEP-00002', TO_DATE('2023-09-15', 'YYYY-MM-DD'), TO_DATE('2023-10-15', 'YYYY-MM-DD'), 'EMP-00008');
+INSERT INTO Formacion (ID_Formacion, ID_Tecnologia, ID_Departamento, Fecha_Inicio, Fecha_fin, ID_empleado) VALUES ('FOR-00009', 'TEC-00009', 'DEP-00003', TO_DATE('2023-10-20', 'YYYY-MM-DD'), TO_DATE('2023-11-20', 'YYYY-MM-DD'), 'EMP-00009');
+
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00001', 'FOR-00001', 'EMP-00001', TO_DATE('2023-02-11', 'YYYY-MM-DD'), NULL, 8.5, 'Buen desempeño');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00002', 'FOR-00002', 'EMP-00002', TO_DATE('2023-03-16', 'YYYY-MM-DD'), NULL, 7.0, 'Necesita mejorar en algunos aspectos');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00003', 'FOR-00003', 'EMP-00003', TO_DATE('2023-04-21', 'YYYY-MM-DD'), NULL, 9.0, 'Excelente desempeño');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00004', 'FOR-00004', 'EMP-00004', TO_DATE('2023-05-26', 'YYYY-MM-DD'), NULL, 6.5, 'Puede mejorar');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00005', 'FOR-00005', 'EMP-00005', TO_DATE('2023-07-01', 'YYYY-MM-DD'), NULL, 7.8, 'Buen desempeño');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00006', 'FOR-00006', 'EMP-00006', TO_DATE('2023-08-06', 'YYYY-MM-DD'), NULL, 8.2, 'Buen desempeño');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00007', 'FOR-00007', 'EMP-00007', TO_DATE('2023-09-11', 'YYYY-MM-DD'), NULL, 7.5, 'Desempeño aceptable');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00008', 'FOR-00008', 'EMP-00008', TO_DATE('2023-10-16', 'YYYY-MM-DD'), NULL, 8.0, 'Buen desempeño');
+INSERT INTO Evaluacion (ID_evaluacion, ID_formacion, ID_empleado, Fecha_evaluacion, Fichero_Evaluacion, Nota, Observaciones) VALUES ('EVA-00009', 'FOR-00009', 'EMP-00009', TO_DATE('2023-11-21', 'YYYY-MM-DD'), NULL, 9.2, 'Excelente desempeño');
