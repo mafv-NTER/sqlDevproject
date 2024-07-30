@@ -8,7 +8,7 @@ INSERT INTO Departamento (ID_departamento, Nombre, ID_TechLead) VALUES ('DEP-000
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00001', 'Java', 'Lenguaje de programación orientado a objetos');
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00002', 'Python', 'Lenguaje de programación interpretado, interactivo');
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00003', 'JavaScript', 'Lenguaje de programación interpretado, basado en prototipos');
-INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00004', 'C#', 'Lenguaje de programación orientado a objetos desarrollado por Microsoft');
+INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00004', 'C', 'Lenguaje de programación orientado a objetos desarrollado por Microsoft');
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00005', 'Ruby', 'Lenguaje de programación interpretado, reflexivo');
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00006', 'PHP', 'Lenguaje de programación del lado del servidor');
 INSERT INTO Tecnologia (ID_tecnologia, nombre, descripcion) VALUES ('TEC-00007', 'Swift', 'Lenguaje de programación para iOS y macOS');

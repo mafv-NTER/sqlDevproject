@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 INSERT INTO Empresa (Nombre, Descripcion, Telefono, Email, Localizacion) VALUES ('Toyota', 'Empresa automotriz global', '+81 1234567890', 'contact@toyota.com', 'Japón');
 INSERT INTO Empresa (Nombre, Descripcion, Telefono, Email, Localizacion) VALUES ('Microsoft', 'Empresa de tecnología y software', '+1 9876543210', 'info@microsoft.com', 'Estados Unidos');
 INSERT INTO Empresa (Nombre, Descripcion, Telefono, Email, Localizacion) VALUES ('Google', 'Motor de búsqueda y tecnología', '+1 5551234567', 'support@google.com', 'Estados Unidos');
@@ -128,5 +128,4 @@ INSERT INTO Proyecto_Tecnologia (ID_proyecto, ID_tecnologia) VALUES ('PRO-00006'
 INSERT INTO Proyecto_Tecnologia (ID_proyecto, ID_tecnologia) VALUES ('PRO-00007', 'TEC-00007');
 INSERT INTO Proyecto_Tecnologia (ID_proyecto, ID_tecnologia) VALUES ('PRO-00008', 'TEC-00008');
 INSERT INTO Proyecto_Tecnologia (ID_proyecto, ID_tecnologia) VALUES ('PRO-00009', 'TEC-00009');
->>>>>>> d51809d15aeb865a5a0f539ea226840c70b115ab
 INSERT INTO Proyecto_Tecnologia (ID_proyecto, ID_tecnologia) VALUES ('PRO-00010', 'TEC-00001');

@@ -277,8 +277,6 @@ ADD CONSTRAINT FK_proyecto_cliente FOREIGN KEY (CIF_empresa) REFERENCES Afiliado
 ALTER TABLE Cliente
 ADD CONSTRAINT ck_nombre_cliente CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
 
-ALTER TABLE Cliente
-ADD CONSTRAINT ck_localizacion_cliente CHECK (REGEXP_LIKE(Localizacion, '^[A-Za-z ]+$'));
 
 CREATE TABLE Proyecto (
     ID_proyecto VARCHAR2(40) PRIMARY KEY,
