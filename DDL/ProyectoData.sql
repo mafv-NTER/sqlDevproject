@@ -45,7 +45,7 @@ ALTER TABLE oficina
 ADD CONSTRAINT ck_cp_oficina CHECK (REGEXP_LIKE(codigo_postal, '^\d{5}$'));
 
 ALTER TABLE oficina
-ADD CONSTRAINT ck_ciudad_oficina CHECK (REGEXP_LIKE(ciudad, '[A-Za-z]$'));
+ADD CONSTRAINT ck_ciudad_oficina CHECK (REGEXP_LIKE(ciudad, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Info_Empleado_Personal (
     ID_empleado VARCHAR2(20) PRIMARY KEY,
@@ -61,13 +61,13 @@ CREATE TABLE Info_Empleado_Personal (
 );
 
 ALTER TABLE Info_Empleado_Personal
-ADD CONSTRAINT ck_apellido1_empleado CHECK (REGEXP_LIKE(Apellido1, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_apellido1_empleado CHECK (REGEXP_LIKE(Apellido1, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Info_Empleado_Personal
-ADD CONSTRAINT ck_apellido2_empleado CHECK (REGEXP_LIKE(Apellido2, '^[A-Za-z ]*$'));
+ADD CONSTRAINT ck_apellido2_empleado CHECK (REGEXP_LIKE(Apellido2, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Info_Empleado_Personal
-ADD CONSTRAINT ck_profesion_empleado CHECK (REGEXP_LIKE(Profesion, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_profesion_empleado CHECK (REGEXP_LIKE(Profesion, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Info_Empleado_Contacto (
     ID_empleado VARCHAR2(20),
@@ -96,7 +96,7 @@ CREATE TABLE Departamento (
 );
 
 ALTER TABLE Departamento
-ADD CONSTRAINT ck_nombre_departamento CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_departamento CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Departamento
 ADD CONSTRAINT FK_Departamento_TechLead FOREIGN KEY (ID_TechLead) REFERENCES Info_Empleado_Personal(ID_empleado);
@@ -129,10 +129,10 @@ ALTER TABLE Info_Empleado_Laboral
 ADD CONSTRAINT FK_Info_Empleado_Laboral_Personal FOREIGN KEY (ID_empleado) REFERENCES Info_Empleado_Personal (ID_empleado) ON DELETE CASCADE;
 
 ALTER TABLE Info_Empleado_Laboral
-ADD CONSTRAINT ck_rol_laboral CHECK (REGEXP_LIKE(Rol, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_rol_laboral CHECK (REGEXP_LIKE(Rol, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Info_Empleado_Laboral
-ADD CONSTRAINT ck_cargo_laboral CHECK (REGEXP_LIKE(Cargo, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_cargo_laboral CHECK (REGEXP_LIKE(Cargo, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Contrato (
     ID_contrato VARCHAR2(125) PRIMARY KEY,
@@ -177,7 +177,7 @@ CREATE TABLE Tecnologia (
 );
 
 ALTER TABLE Tecnologia
-ADD CONSTRAINT ck_nombre_tecnologia CHECK (REGEXP_LIKE(nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_tecnologia CHECK (REGEXP_LIKE(nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Formacion(
     ID_Formacion VARCHAR2(20) PRIMARY KEY,
@@ -229,10 +229,10 @@ ALTER TABLE Empresa
 ADD CONSTRAINT ck_email_empresa CHECK (REGEXP_LIKE(Email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'));
 
 ALTER TABLE Empresa
-ADD CONSTRAINT ck_nombre_empresa CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_empresa CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Empresa
-ADD CONSTRAINT ck_localizacion_empresa CHECK (REGEXP_LIKE(Localizacion, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_localizacion_empresa CHECK (REGEXP_LIKE(Localizacion, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Afiliados (
     CIF_empresa VARCHAR2(40) PRIMARY KEY,
@@ -250,10 +250,10 @@ ALTER TABLE Afiliados
 ADD CONSTRAINT ck_email_afiliados CHECK (REGEXP_LIKE(Email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}$'));
 
 ALTER TABLE Afiliados
-ADD CONSTRAINT ck_nombre_afiliados CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_afiliados CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Afiliados
-ADD CONSTRAINT ck_localizacion_afiliados CHECK (REGEXP_LIKE(Localizacion, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_localizacion_afiliados CHECK (REGEXP_LIKE(Localizacion, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Cliente (
     ID_cliente VARCHAR2(40) PRIMARY KEY,
@@ -275,7 +275,7 @@ ALTER TABLE Cliente
 ADD CONSTRAINT FK_proyecto_cliente FOREIGN KEY (CIF_empresa) REFERENCES Afiliados(CIF_empresa);
 
 ALTER TABLE Cliente
-ADD CONSTRAINT ck_nombre_cliente CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_cliente CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 
 CREATE TABLE Proyecto (
@@ -292,7 +292,7 @@ ALTER TABLE Proyecto
 ADD CONSTRAINT FK_cliente_proyecto FOREIGN KEY (ID_cliente) REFERENCES Cliente(ID_cliente);
 
 ALTER TABLE Proyecto
-ADD CONSTRAINT ck_nombre_proyecto CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_nombre_proyecto CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Empleado_Proyecto (
     ID_empleado VARCHAR2(20),
@@ -304,7 +304,7 @@ ALTER TABLE Empleado_Proyecto
 ADD CONSTRAINT FK_Empleado_Proyecto_Empleado FOREIGN KEY (ID_empleado) REFERENCES Info_Empleado_Personal(ID_empleado);
 
 ALTER TABLE Empleado_Proyecto
-ADD CONSTRAINT ck_rol_empleado_proyecto CHECK (REGEXP_LIKE(Rol, '^[A-Za-z ]+$'));
+ADD CONSTRAINT ck_rol_empleado_proyecto CHECK (REGEXP_LIKE(Rol, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 ALTER TABLE Empleado_Proyecto
 ADD CONSTRAINT FK_Empleado_Proyecto_Proyecto FOREIGN KEY (ID_proyecto) REFERENCES Proyecto(ID_proyecto);
@@ -329,7 +329,7 @@ CREATE TABLE Material (
 );
 
 ALTER TABLE Material
-ADD CONSTRAINT ck_nombre_material CHECK (REGEXP_LIKE(Nombre, '^[A-Za-z -]+$'));
+ADD CONSTRAINT ck_nombre_material CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _]*[ñA-Za-z][ñA-Za-z _]*$'));
 
 CREATE TABLE Material_Empleado (
     ID_material VARCHAR2(20),
