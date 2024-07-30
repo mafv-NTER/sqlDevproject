@@ -1,6 +1,6 @@
-@DMLs/ProyectoData.sql
-@DMLs/GenKey.sql
-@DMLs/TRIGGERS.sql
+@DDL/ProyectoData.sql
+@DDL/GenKey.sql
+@TRIGGERS/TRIGGERS.sql
 
 
 
