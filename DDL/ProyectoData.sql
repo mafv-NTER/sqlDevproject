@@ -226,7 +226,7 @@ ALTER TABLE Empresa
 ADD CONSTRAINT ck_telefono_empresa CHECK (REGEXP_LIKE(Telefono, '^\+\d{1,3}\s?\d{1,10}$'));
 
 ALTER TABLE Empresa
-ADD CONSTRAINT ck_email_empresa CHECK (REGEXP_LIKE(Email, '^[ñA-Za-z _,#-]*[ñA-Za-z,#-][ñA-Za-z _,#-]*$'));
+ADD CONSTRAINT ck_email_empresa CHECK (REGEXP_LIKE(Email, '^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}'));
 
 ALTER TABLE Empresa
 ADD CONSTRAINT ck_nombre_empresa CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _,#-]*[ñA-Za-z,#-][ñA-Za-z _,#-]*$'));
@@ -274,8 +274,9 @@ ADD CONSTRAINT ck_email_cliente CHECK (REGEXP_LIKE(Email, '^[A-Za-z0-9._%+-]+@[A
 ALTER TABLE Cliente
 ADD CONSTRAINT FK_proyecto_cliente FOREIGN KEY (CIF_empresa) REFERENCES Afiliados(CIF_empresa);
 
-ALTER TABLE Cliente
-ADD CONSTRAINT ck_nombre_cliente CHECK (REGEXP_LIKE(Nombre, '^[ñA-Za-z _,#-]*[ñA-Za-z,#-][ñA-Za-z _,#-]*$'));
+--ALTER TABLE Cliente
+--ADD CONSTRAINT ck_nombre_cliente CHECK (REGEXP_LIKE(Nombre, '^[^0-9]+$') = False);
+
 
 
 CREATE TABLE Proyecto (
