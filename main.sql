@@ -1,4 +1,4 @@
-@DDL/ProyectoData.sql
+@DDL/DDL_proyectoData.sql
 @DDL/GenKey.sql
 @TRIGGERS/TRIGGERS.sql
 
